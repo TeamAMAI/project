@@ -1,3 +1,10 @@
+function showQuestion1()
+{
+    document.getElementById('start').style.visibility = "hidden";
+
+    document.getElementById('question1').style.display = "";
+}
+
 function showQuestion2()
 {
     document.getElementById('question1').style.visibility = "hidden";

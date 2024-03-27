@@ -15,11 +15,21 @@
 
     </nav>
 
+    <div id="start">
+
+        <p>hi</p>
+
+        <form action="showQuestion1" method="post">
+            <button class="nextButton1" type="button" name="next" value="Next" onclick="showQuestion1()">
+        </form>
+
+    </div>
+
     <div id="question1">
 
         <p>hi</p>
 
-        <form action="showQuestion1" method="get">
+        <form action="showQuestion1" method="post">
             <button class="nextButton1" type="button" name="next" value="Next" onclick="showQuestion2()">
         </form>
 
@@ -29,7 +39,7 @@
 
         <p>hello</p>
 
-        <form action="main.php" method="get">
+        <form action="main.php" method="post">
             <button class="nextButton1" type="button" name="next" value="Next" onclick="showQuestion3()">
         </form>
 
@@ -39,7 +49,7 @@
 
         <p>hey</p>
 
-        <form action="main.php" method="get">
+        <form action="main.php" method="post">
             <button class="nextButton1" type="button" name="next" value="Next" onclick="showQuestion4()">
         </form>
 
