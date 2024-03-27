@@ -19,7 +19,7 @@
 
         <p>start</p>
 
-        <form action="showQuestion1" method="post">
+        <form action="" method="post">
             <button class="nextButton1" type="button" name="next" value="Next" onclick="showQuestion1()">
         </form>
 
