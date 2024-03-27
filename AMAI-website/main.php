@@ -10,7 +10,7 @@
     <header>
 
         <div id="logo">
-            <a href="main.php"><img src="..."></a>
+            <a href="main.php"><img src="Images/logo.png"></a>
         </div>
         <div id="title">
             <a href="index.html">
