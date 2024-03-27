@@ -1,3 +1,14 @@
+#question1 {
+    display: none;
+}
+
+#question2{
+    display: none;
+}
+
+#question3{
+    display: none;
+}
 body {
     display: flex;
     flex-direction: column;
