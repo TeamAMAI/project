@@ -3,17 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>AMAI</title>
 </head>
 <link rel="stylesheet" type="text/css" href="style.css">
 <body>
-    <nav>
+    <header>
 
-
-
-
-
-    </nav>
+        <div id="logo">
+            <a href="main.php"><img src="..."></a>
+        </div>
+        <div id="title">
+            <a href="index.html">
+                <h1>AMAI</h1>
+            </a>
+        </div>
+        
+    </header>
 
     <div id="start">
 
