@@ -62,7 +62,7 @@
                     <input class="form-check-input" type="checkbox" value="Quote" id="flexCheckDefault option3">
                     <label class="form-check-label" for="flexCheckDefault option4">Motivational Quotes</label>
                 </div>  
-                
+                    <br>
                     <label for="customRange2 option4" class="form-label">How much time do you want between each notification</label>
                     <input type="range" class="form-range" min="0" max="120" id="customRange1">
                 <!-- <form>
