@@ -34,7 +34,7 @@
 
 
 
-        if ($_SESSION['pageNumber'] == 1)
+        if ($pg == 1)
         {
             ?>
                 <form>
@@ -44,7 +44,7 @@
 
             <?php
         }
-        else if ($_SESSION['pageNumber'] == 2)
+        else if ($pg== 2)
         {
             ?>
                 <form>
@@ -55,7 +55,7 @@
 
             <?php
         }
-        else if ($_SESSION['pageNumber'] == 3)
+        else if ($pg == 3)
         {
             ?>
                 <form>
@@ -69,7 +69,7 @@
 
     ?>
         <div class="next_back_button_container">
-            <form action="viewBooks.php" method="post">
+            <form action="main.php" method="post">
                 <input class="nextBackButton" type="submit" name="back" value="Back"> 
                 <input class="nextBackButton" type="submit" name="next" value="Next">
             </form>
