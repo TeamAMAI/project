@@ -24,16 +24,21 @@
   <div class="carousel-inner">
     <div class="carousel-item active">
         <img src="Images/Image1.jpg" class="d-block w-100" alt="...">
-        <div class="row">
-            <div class="col">
-                <input type="text" class="form-control" placeholder="First name" aria-label="First name">
-            </div>
-            <div class="col">
-                <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+        <div class="carousel-caption d-none d-md-block">
+            <h5>Second slide label</h5>
+            <div class="row">
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                </div>
             </div>
         </div>
+        
     </div>
     <div class="carousel-item">
+        
 
     </div>
     <div class="carousel-item">
