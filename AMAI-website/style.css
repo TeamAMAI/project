@@ -62,3 +62,9 @@ header {
     color: #FFF7F1;
 }
 
+#imagecar{
+ z-index: 0;
+}
+#control{
+    z-index: 1;
+}
