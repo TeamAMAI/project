@@ -40,6 +40,7 @@
         <div class="carousel-item carimage1">
             <img src="Images/picture2.png" class="d-block w-100" >
             <div class="carousel-caption d-none d-md-block">
+                <h5>Set up your first reminder!</h5>
                 <div class="row">
                     <div class="col">
                         <input type="text" class="form-control" placeholder="First name" aria-label="First name">
@@ -48,6 +49,7 @@
                         <input type="email" class="form-control" placeholder="Email Address" aria-label="Email Address">
                     </div>
                 </div>
+                <br>
                 <div class="form-check">
                     <input class="form-check-input" type="checkbox" value="Stretch" id="flexCheckDefault option1">
                     <label class="form-check-label" for="flexCheckDefault option1">Reminder to Stretch</label>
