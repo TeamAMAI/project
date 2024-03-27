@@ -17,7 +17,7 @@
 
     <div id="start">
 
-        <p>hi</p>
+        <p>start</p>
 
         <form action="showQuestion1" method="post">
             <button class="nextButton1" type="button" name="next" value="Next" onclick="showQuestion1()">
