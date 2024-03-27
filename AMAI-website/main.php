@@ -25,7 +25,6 @@
     <div class="carousel-item active carimage1">
         <!-- <img class="imagecar" src="Images/Beige.png" class="d-block w-100" alt="..."> -->
         <div class="carousel-caption d-none d-md-block">
-            <h5>Second slide label</h5>
             <div class="row">
                 <div class="col">
                     <input type="text" class="form-control" placeholder="First name" aria-label="First name">
@@ -38,7 +37,16 @@
         
     </div>
     <div class="carousel-item">
-
+        <div class="carousel-caption d-none d-md-block">
+            <div class="row">
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                </div>
+            </div>
+        </div>
 
     </div>
     <div class="carousel-item">
