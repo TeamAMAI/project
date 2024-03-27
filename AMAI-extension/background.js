@@ -1,4 +1,4 @@
-let namee = "Champion!"
+let namee = "Workday!"
 let numHours = 2
 let song = false
 let songLink = ""
