@@ -34,7 +34,7 @@
 
 
 
-        if ($_SESSION['pageNumber'] = 1)
+        if ($_SESSION['pageNumber'] == 1)
         {
             ?>
                 <form>
@@ -44,7 +44,7 @@
 
             <?php
         }
-        else if ($_SESSION['pageNumber'] = 2)
+        else if ($_SESSION['pageNumber'] == 2)
         {
             ?>
                 <form>
@@ -55,7 +55,7 @@
 
             <?php
         }
-        else if ($_SESSION['pageNumber'] = 3)
+        else if ($_SESSION['pageNumber'] == 3)
         {
             ?>
                 <form>
