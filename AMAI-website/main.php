@@ -40,7 +40,8 @@
         <div class="carousel-item carimage1">
             <img src="Images/picture2.png" class="d-block w-100" >
             <div class="carousel-caption d-none d-md-block">
-                <h5>Set up your first reminder!</h5>
+                <h3>Set up your first reminder!</h3>
+                <br>
                 <div class="row">
                     <div class="col">
                         <input type="text" class="form-control" placeholder="First name" aria-label="First name">

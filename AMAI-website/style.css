@@ -15,7 +15,7 @@ body {
     flex-direction: column;
     min-height: 150vh;
     margin: 0;
-    
+    background-color: #FFF7F1;
 }
 
 main {
@@ -86,4 +86,8 @@ header {
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 3vh;
+}
+
+.carimage1 h3{
+    color: #BED1CF;
 }
