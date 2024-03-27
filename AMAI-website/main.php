@@ -19,7 +19,7 @@
 
         <p>hi</p>
 
-        <form action="showQuestion1" method="post">
+        <form action="showQuestion1" method="get">
             <button class="nextButton1" type="button" name="next" value="Next" onclick="showQuestion2()">
         </form>
 
@@ -29,7 +29,7 @@
 
         <p>hello</p>
 
-        <form action="main.php" method="post">
+        <form action="main.php" method="get">
             <button class="nextButton1" type="button" name="next" value="Next" onclick="showQuestion3()">
         </form>
 
@@ -39,7 +39,7 @@
 
         <p>hey</p>
 
-        <form action="main.php" method="post">
+        <form action="main.php" method="get">
             <button class="nextButton1" type="button" name="next" value="Next" onclick="showQuestion4()">
         </form>
 

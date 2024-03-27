@@ -2,7 +2,7 @@ function showQuestion2()
 {
     document.getElementById('question1').style.visibility = "hidden";
 
-    document.getElementById('question2').style.display = " ";
+    document.getElementById('question2').style.display = "";
 }
 
 function showQuestion3()
