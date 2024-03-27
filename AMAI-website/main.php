@@ -33,7 +33,14 @@
         <div class="carousel-item active carimage1">
             <img src="Images/Image1.jpg" class="d-block w-100">
             <div class="carousel-caption d-none d-md-block">
-                
+                <h2>Welcome to AMAI</h2>
+                <p>A google extension made to help you focus while working from home!<br>You can chose different remainder that we can give at a specified time.<br>These remainder include:</p>
+                <ul>
+                    <li>remainder to look away from your screen for 20 seconds</li>
+                    <li>remainder to stretch + drink water</li>
+                    <li>Motivational quotes</li>
+                </ul>
+                <p>These will appear in your screen while you are working!</p>
             </div>
         </div>
  
@@ -68,7 +75,7 @@
                     <input type="range" class="form-range" min="0" max="120" step="1" id="customRange1">
                     <p>Time Selected:<output id="valueTime"></output></p>
                     <div class="col-12">
-                        <button class="btn btn-primary" type="submit">Submit form</button>
+                        <button class="btn btn-primary submit-button1" type="submit">Submit form</button>
                     </div>
             </div>
 
