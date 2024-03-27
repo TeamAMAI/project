@@ -73,7 +73,7 @@
                     <label class="form-check-label" for="flexCheckDefault option4">Motivational Quotes</label>
                 </div>  
                     <br>
-                    <label for="customRange2 option4" class="form-label">Time Between Reminders</label>
+                    <label for="customRange2 option4" class="form-label">Time Between Reminders (minutes)</label>
                     <input type="range" class="form-range" min="0" max="120" step="1" id="customRange1">
                     <p>Time Selected: <output id="valueTime"></output></p>
                     <div class="col-12">
