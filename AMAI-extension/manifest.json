@@ -1,0 +1,14 @@
+{
+    "name": "AMAI",
+    "description": "AMAI - Your key to relaxation",
+    "version": "1.0",
+    "permissions": ["storage", "notifications", "alarms","tabs"],
+    "manifest_version": 3,
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "extension.html",
+      "default_icon": "logo.PNG"
+    }
+  }
