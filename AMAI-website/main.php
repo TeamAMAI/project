@@ -35,7 +35,7 @@
           </div>
         </div>
         <div class="carousel-item">
-          <img src="Images/logo.png" class="d-block w-100">
+          <img src="Images/Image1.png" class="d-block w-100">
           <div class="carousel-caption d-none d-md-block">
             <h5 class="carousel-headings">Destinations</h5>
             <p>Click <a class="section-links" href="HTML/destinations.html">here</a> to see more!</p>
@@ -63,5 +63,6 @@
     
 
 </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 <script src="script.js"></script>
 </html>
