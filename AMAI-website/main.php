@@ -23,7 +23,7 @@
     <div id="carouselExample" class="carousel slide">
   <div class="carousel-inner">
     <div class="carousel-item active">
-        <img class="imagecar"src="Images/Image1.jpg" class="d-block w-100" alt="...">
+        <img class="imagecar" src="Images/Beige.png" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
             <h5>Second slide label</h5>
             <div class="row">
