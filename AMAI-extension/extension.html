@@ -1,14 +1,74 @@
 <html>
  <head>
    <title>AMAI</title>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&family=Yeseva+One&display=swap" rel="stylesheet">
  </head>
  <body>
     <style>
-        
+        body {
+            background-color: #FFF7F1;
+        }
+        .container {
+            width: 250px;
+            height: 350px;
+            background: #FFF7F1;
+            font-family: "Yeseva One", serif;
+        } 
+        #btn { 
+            border: none;
+            background-color: #E78895;
+            color: white;
+            padding: 15px 25px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 15px;
+            border-radius: 8px;
+            align-items: center;
+            width: 185px;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            height: 45px;
+            font-family: "Yeseva One", serif;
+        }
+        #btn:hover {
+            background-color: #BED1CF;
+            color: white;
+            }
+        img {
+            width: 50px;
+            height: 50px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 20px;
+        }
+
+        input {
+            width: 100px;
+            height: 20px;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            margin-bottom: 30px;
+            text-align: center;
+            border: none;
+        }
+        h2 {
+            margin-top: 30px;
+            margin-bottom: 50px;
+            text-align: center;
+        }
     </style>
-     <img src="logo.PNG" id="logo">
-     <button id="btn">Set Alarm</button>
-     
+    <div class="container">
+        <img src="logo.PNG" id="logo">
+        <h2>Set your timer!</h2>
+        <input type="number" min="0" max="100">
+        <button id="btn">Set Alarm</button>
+    </div>
    <script src="popup.js"></script>
  </body>
 </html>
