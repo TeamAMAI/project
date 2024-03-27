@@ -50,19 +50,20 @@
         <div class="carousel-item carimage1">
             <img src="Images/picture2.png" class="d-block w-100" >
             <div class="carousel-caption d-none d-md-block">
-            <form>
-                <input type="checkbox" id="option1" name="option1" value="Timer">
-                <label for="option2">Reminder to Stretch</label><br>
-                <input type="checkbox" id="option2" name="option2" value="Screen">
-                <label for="option2">Reminder to Look Away From Screen</label><br>
-                <input type="checkbox" id="option3" name="option3" value="Quote">
-                <label for="option3">Motivational Quotes</label>
-                <label for="option3">How much time do you want between each notification?</label>
-                <input type="number" id="option4" name="option4">
+                <form>
+                    <input type="checkbox" id="option1" name="option1" value="Timer">
+                    <label for="option2">Reminder to Stretch</label><br>
+                    <input type="checkbox" id="option2" name="option2" value="Screen">
+                    <label for="option2">Reminder to Look Away From Screen</label><br>
+                    <input type="checkbox" id="option3" name="option3" value="Quote">
+                    <label for="option3">Motivational Quotes</label>
+                    <br>
+                    <label for="option3">How much time do you want between each notification?</label>
+                    <input type="number" id="option4" name="option4">
 
 
 
-            </form>
+                </form>
 
 
             </div>
