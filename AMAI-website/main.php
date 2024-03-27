@@ -33,6 +33,13 @@
         <div class="carousel-item active carimage1">
             <img src="Images/Image1.jpg" class="d-block w-100">
             <div class="carousel-caption d-none d-md-block">
+                
+            </div>
+        </div>
+ 
+        <div class="carousel-item carimage1">
+            <img src="Images/picture2.png" class="d-block w-100" >
+            <div class="carousel-caption d-none d-md-block">
                 <div class="row">
                     <div class="col">
                         <input type="text" class="form-control" placeholder="First name" aria-label="First name">
@@ -41,18 +48,6 @@
                         <input type="email" class="form-control" placeholder="Email Address" aria-label="Email Address">
                     </div>
                 </div>
-            </div>
-        </div>
-        <!-- <div class="carousel-item carimage2">
-          <img src="Images/picture1.png" class="d-block w-100 carouselImage">
-          <div class="carousel-caption d-none d-md-block">
-            <h5 class="carousel-headings">Destinations</h5>
-            <p>Click <a class="section-links" href="HTML/destinations.html">here</a> to see more!</p>
-          </div>
-        </div> -->
-        <div class="carousel-item carimage1">
-            <img src="Images/picture2.png" class="d-block w-100" >
-            <div class="carousel-caption d-none d-md-block">
                 <div class="form-check">
                     <input class="form-check-input" type="checkbox" value="Stretch" id="flexCheckDefault option1">
                     <label class="form-check-label" for="flexCheckDefault option1">Reminder to Stretch</label>
