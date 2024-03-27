@@ -50,36 +50,37 @@
         <div class="carousel-item carimage1">
             <img src="Images/picture2.png" class="d-block w-100" >
             <div class="carousel-caption d-none d-md-block">
-            <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="Stretch" id="flexCheckDefault option1">
-                <label class="form-check-label" for="flexCheckDefault option1">Reminder to Stretch</label>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="Stretch" id="flexCheckDefault option1">
+                    <label class="form-check-label" for="flexCheckDefault option1">Reminder to Stretch</label>
+                </div>  
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="Screen" id="flexCheckChecked option2">
+                    <label class="form-check-label" for="flexCheckChecked option3">Reminder to Look Away From Screen</label>
+                </div>  
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="Quote" id="flexCheckDefault option3">
+                    <label class="form-check-label" for="flexCheckDefault option4">Motivational Quotes</label>
+                </div>  
+                
+                    <label for="customRange2 option4" class="form-label">How much time do you want between each notification</label>
+                    <input type="range" class="form-range" min="0" max="120" id="customRange1">
+                <!-- <form>
+                    <input type="checkbox" id="option1" name="option1" value="Stretch">
+                    <label for="option2">Reminder to Stretch</label><br>
+                    <input type="checkbox" id="option2" name="option2" value="Screen">
+                    <label for="option2">Reminder to Look Away From Screen</label><br>
+                    <input type="checkbox" id="option3" name="option3" value="Quote">
+                    <label for="option3">Motivational Quotes</label>
+                    <br>
+                    <label for="option3">How much time do you want between each notification?</label>
+                    <input type="number" id="option4" name="option4">
 
-                <input class="form-check-input" type="checkbox" value="Screen" id="flexCheckChecked option2">
-                <label class="form-check-label" for="flexCheckChecked option3">Reminder to Look Away From Screen</label>
 
-                <input class="form-check-input" type="checkbox" value="Quote" id="flexCheckDefault option3">
-                <label class="form-check-label" for="flexCheckDefault option4">Motivational Quotes</label>
 
-                <label for="customRange2 option4" class="form-label">How much time do you want between each notification</label>
-                <input type="range" class="form-range" min="0" max="120" id="customRange1">
+                </form> -->
             </div>
-            <!-- <form>
-                <input type="checkbox" id="option1" name="option1" value="Stretch">
-                <label for="option2">Reminder to Stretch</label><br>
-                <input type="checkbox" id="option2" name="option2" value="Screen">
-                <label for="option2">Reminder to Look Away From Screen</label><br>
-                <input type="checkbox" id="option3" name="option3" value="Quote">
-                <label for="option3">Motivational Quotes</label>
-                <br>
-                <label for="option3">How much time do you want between each notification?</label>
-                <input type="number" id="option4" name="option4">
 
-
-
-            </form> -->
-
-
-            </div>
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
