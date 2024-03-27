@@ -28,25 +28,44 @@
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active carimage1">
-          <img src="Images/Image1.jpg" class="d-block w-100">
-          <div class="carousel-caption d-none d-md-block">
-            <h5 class="carousel-headings">Welcome to my blog!</h5>
-            <p>More about me below</a></p>
-          </div>
+            <img src="Images/Image1.jpg" class="d-block w-100">
+            <div class="carousel-caption d-none d-md-block">
+                <div class="row">
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+                    </div>
+                    <div class="col">
+                        <input type="email" class="form-control" placeholder="Email Address" aria-label="Email Address">
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="carousel-item carimage2">
+        <!-- <div class="carousel-item carimage2">
           <img src="Images/picture1.png" class="d-block w-100 carouselImage">
           <div class="carousel-caption d-none d-md-block">
             <h5 class="carousel-headings">Destinations</h5>
             <p>Click <a class="section-links" href="HTML/destinations.html">here</a> to see more!</p>
           </div>
-        </div>
+        </div> -->
         <div class="carousel-item carimage1">
-          <img src="Images/picture2.png" class="d-block w-100" >
-          <div class="carousel-caption d-none d-md-block">
-            <h5 class="carousel-headings">Contact me!</h5>
-            <p>Let me know some of your favourite places <a class="section-links" href="HTML/contact.html">here</a></p>
-          </div>
+            <img src="Images/picture2.png" class="d-block w-100" >
+            <div class="carousel-caption d-none d-md-block">
+            <form>
+                <input type="checkbox" id="option1" name="option1" value="Timer">
+                <label for="option2">Reminder to Stretch</label><br>
+                <input type="checkbox" id="option2" name="option2" value="Screen">
+                <label for="option2">Reminder to Look Away From Screen</label><br>
+                <input type="checkbox" id="option3" name="option3" value="Quote">
+                <label for="option3">Motivational Quotes</label>
+                <label for="option3">How much time do you want between each notification?</label>
+                <input type="number" id="option4" name="option4">
+
+
+
+            </form>
+
+
+            </div>
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
