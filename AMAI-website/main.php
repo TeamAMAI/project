@@ -63,8 +63,10 @@
                     <label class="form-check-label" for="flexCheckDefault option4">Motivational Quotes</label>
                 </div>  
                     <br>
-                    <label for="customRange2 option4" class="form-label">How much time do you want between each notification</label>
-                    <input type="range" class="form-range" min="0" max="120" id="customRange1">
+                    <label for="customRange2 option4" class="form-label">Time Between Reminders</label>
+                    <input type="range" class="form-range" min="0" max="120" step="1" id="customRange1">
+                    <p>Time: <output id="valueTime"></output></p>
+
                 <!-- <form>
                     <input type="checkbox" id="option1" name="option1" value="Stretch">
                     <label for="option2">Reminder to Stretch</label><br>
