@@ -2,7 +2,7 @@
     "name": "AMAI",
     "description": "AMAI - Your key to relaxation",
     "version": "1.0",
-    "permissions": ["storage", "notifications"],
+    "permissions": ["storage", "notifications", "alarms"],
     "manifest_version": 3,
     "background": {
       "service_worker": "background.js"
