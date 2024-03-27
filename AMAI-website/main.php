@@ -27,12 +27,11 @@
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active carimage1">
             <img src="Images/Image1.jpg" class="d-block w-100">
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption d-none d-md-block color-div">
                 <h2>Welcome to AMAI</h2>
                 <p>A google extension made to help you focus while working from home!<br>You can chose different remainder that we can give at a specified time.<br>These remainder include:</p>
                 <ul>
@@ -73,7 +72,7 @@
                     <br>
                     <label for="customRange2 option4" class="form-label">Time Between Reminders</label>
                     <input type="range" class="form-range" min="0" max="120" step="1" id="customRange1">
-                    <p>Time Selected:<output id="valueTime"></output></p>
+                    <p>Time Selected: <output id="valueTime"></output></p>
                     <div class="col-12">
                         <button class="btn btn-primary submit-button1" type="submit">Submit form</button>
                     </div>
