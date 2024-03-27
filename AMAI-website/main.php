@@ -6,9 +6,6 @@
     <title>Document</title>
 </head>
 <body>
-    <?php
-        session_start();
-    ?>
     <nav>
 
 
@@ -17,70 +14,39 @@
 
     </nav>
 
-    <?php
-        $pg = isset($_SESSION['pageNumber']) ? $_SESSION['pageNumber'] : 1;
-        if(isset($_POST['back']) && $pg != 1)#if the user is not on the first 'page' of books, the can still go back
-            {
-                $pg = $pg-1;
-                unset($_POST['back']);
-            }
-            else if (isset($_POST['next']) && $_SESSION['bookResults'] != 'no more') #if the user isn't on the last 'page' of books
-            {
-                $pg = $pg+1;
-                unset($_POST['next']);
-            }
+    <div id="question1">
 
-            $_SESSION['pageNumber'] = $pg;
+        <p>hi</p>
 
+        <form action="showQuestion1" method="post">
+            <button class="nextButton1" type="button" name="next" value="Next" onclick="showQuestion2()">
+        </form>
 
+    </div>
 
-        if ($pg == 1)
-        {
-            ?>
-                <form>
-                    <p>hi</p>
+    <div id="question2">
 
-                </form>
+        <p>hello</p>
 
-            <?php
-        }
-        else if ($pg== 2)
-        {
-            ?>
-                <form>
+        <form action="main.php" method="post">
+            <button class="nextButton1" type="button" name="next" value="Next" onclick="showQuestion3()">
+        </form>
 
-                <p>hello</p>
+    </div>
 
-                </form>
+    <div id="question3">
 
-            <?php
-        }
-        else if ($pg == 3)
-        {
-            ?>
-                <form>
-                <p>hey</p>
+        <p>hey</p>
 
+        <form action="main.php" method="post">
+            <button class="nextButton1" type="button" name="next" value="Next" onclick="showQuestion4()">
+        </form>
 
-                </form>
-
-            <?php
-        }
-
-    ?>
-        <div class="next_back_button_container">
-            <form action="main.php" method="post">
-                <input class="nextBackButton" type="submit" name="back" value="Back"> 
-                <input class="nextBackButton" type="submit" name="next" value="Next">
-            </form>
-        </div>
-
-
-
-
+    </div>
 
 
 
 
 </body>
+<script src="script.js"></script>
 </html>
