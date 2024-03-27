@@ -1,20 +1,20 @@
 function showQuestion2()
 {
-    document.getElementById('question1').style.display = "none";
+    document.getElementById('question1').style.visibility = "hidden";
 
-    document.getElementById('question2').style.display = "block";
+    document.getElementById('question2').style.visibility = "visible";
 }
 
 function showQuestion3()
 {
-    document.getElementById('question2').style.display = "none";
+    document.getElementById('question2').style.visibility = "hidden";
 
-    document.getElementById('question3').style.display = "block";
+    document.getElementById('question3').style.visibility = "visible";
 }
 
 function showQuestion4()
 {
-    document.getElementById('question3').style.display = "none";
+    document.getElementById('question3').style.visibility = "hidden";
 
-    document.getElementById('question1').style.display = "block";
+    document.getElementById('question1').style.visibility = "visible";
 }
