@@ -27,22 +27,22 @@
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
       </div>
       <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="Images/Image1.jpg" class="d-block w-100">
+        <div class="carousel-item active carimage1">
+          <!-- <img src="Images/Image1.jpg" class="d-block w-100"> -->
           <div class="carousel-caption d-none d-md-block">
             <h5 class="carousel-headings">Welcome to my blog!</h5>
             <p>More about me below</a></p>
           </div>
         </div>
-        <div class="carousel-item">
-          <img src="Images/Image1.png" class="d-block w-100">
+        <div class="carousel-item carimage2">
+          <!-- <img src="Images/Image1.png" class="d-block w-100"> -->
           <div class="carousel-caption d-none d-md-block">
             <h5 class="carousel-headings">Destinations</h5>
             <p>Click <a class="section-links" href="HTML/destinations.html">here</a> to see more!</p>
           </div>
         </div>
-        <div class="carousel-item">
-          <img src="Images/header-image3.jpg" class="d-block w-100" >
+        <div class="carousel-item carimage3">
+          <!-- <img src="Images/header-image3.jpg" class="d-block w-100" > -->
           <div class="carousel-caption d-none d-md-block">
             <h5 class="carousel-headings">Contact me!</h5>
             <p>Let me know some of your favourite places <a class="section-links" href="HTML/contact.html">here</a></p>
