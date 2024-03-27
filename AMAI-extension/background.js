@@ -1,4 +1,4 @@
-let namee = "Moon"
+let namee = "Champion!"
 let numHours = 2
 let song = false
 let songLink = ""
@@ -11,7 +11,7 @@ chrome.alarms.onAlarm.addListener(
                 type: "basic",
                 iconUrl: "logo.PNG",
                 title: "Look Away " + namee,
-                message: "Touch some grass :)",
+                message: "Stretch a little",
                 silent: false
             },
             () => { }
@@ -23,10 +23,6 @@ chrome.runtime.onMessage.addListener(
         console.log(request);
         if (request.time)
             createAlarm();
-
-        sendResponse(() => {
-            return false
-        });
     }
 );
 
@@ -35,7 +31,7 @@ function createAlarm() {
     chrome.alarms.create(
         "alarm",
         {
-            delayInMinutes: 1,
+            delayInMinutes: "timer",
             periodInMinutes: 1
         }
     );

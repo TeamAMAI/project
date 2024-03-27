@@ -1,6 +1,8 @@
-const ele = document.getElementById("btn")
+const ele = document.getElementById("btn", "timer")
 ele.addEventListener("click", () => {
-    chrome.runtime.sendMessage({ time: "1" }, function (response) {
+    chrome.runtime.sendMessage({ time: "timer" }, function (response) {
         console.log(response);
     });
 });
+
+
