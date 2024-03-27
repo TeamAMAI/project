@@ -2,8 +2,11 @@
     "name": "AMAI",
     "description": "Focus on you!",
     "version": "1.0",
-    "permissions": ["storage"],
+    "permissions": ["storage", "notifications"],
     "manifest_version": 3,
+    "background": {
+      "service_worker": "background.js"
+    },
     "content_scripts": [ {
       "js": ["contentScripts.js"]
     }],
