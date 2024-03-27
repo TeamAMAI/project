@@ -9,6 +9,7 @@
 #question3{
     display: none;
 }
+
 body {
     display: flex;
     flex-direction: column;
@@ -30,7 +31,7 @@ header {
     align-items: center;
     justify-content: space-between;
     margin: 0;
-    
+    height: 10vh;
 }
 
 
