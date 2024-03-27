@@ -86,6 +86,7 @@ header {
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 3vh;
+    
 }
 
 .carimage1 h3{
@@ -104,4 +105,9 @@ header {
 
 .color-div > * {
     opacity: 100%;
+}
+
+
+#option1, #option2, #option3{
+    float: left;
 }
