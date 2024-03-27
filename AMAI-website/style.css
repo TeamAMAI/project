@@ -72,9 +72,27 @@ header {
     z-index: 1;
 }
 
-.carimage1 .carimage2 .carimage3{
+/* .carimage1 {
     background: #FFF7F1;
     background: linear-gradient(circle, #FFF7F1, 0%, #FFE4C9, 100%);
+    width: 100%;
+    height: 20vh;
+}
+.carimage2 {
+    background: #FFF7F1;
+    background: linear-gradient(circle, #FFF7F1, 0%, #FFE4C9, 100%);
+    width: 100%;
+    height: 20vh;
+}
+.carimage3 {
+    background: #FFF7F1;
+    background: linear-gradient(circle, #FFF7F1, 0%, #FFE4C9, 100%);
+    width: 100%;
+    height: 20vh;
+} */
+
+.carouselImage
+{
     width: 100%;
     height: 20vh;
 }

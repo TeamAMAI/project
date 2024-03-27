@@ -35,7 +35,7 @@
           </div>
         </div>
         <div class="carousel-item carimage2">
-          <img src="Images/picture1.png" class="d-block w-100">
+          <img src="Images/picture1.png" class="d-block w-100 carouselImage">
           <div class="carousel-caption d-none d-md-block">
             <h5 class="carousel-headings">Destinations</h5>
             <p>Click <a class="section-links" href="HTML/destinations.html">here</a> to see more!</p>
