@@ -19,7 +19,10 @@
             </a>
         </div>
     </header>
+    <div class="container">
+        <p></p>
 
+    <div>
     <div id="carouselExampleCaptions" class="carousel carousel-index-main slide" data-bs-ride="false">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -65,22 +68,10 @@
                     <br>
                     <label for="customRange2 option4" class="form-label">Time Between Reminders</label>
                     <input type="range" class="form-range" min="0" max="120" step="1" id="customRange1">
-                    <p>Time: <output id="valueTime"></output></p>
-
-                <!-- <form>
-                    <input type="checkbox" id="option1" name="option1" value="Stretch">
-                    <label for="option2">Reminder to Stretch</label><br>
-                    <input type="checkbox" id="option2" name="option2" value="Screen">
-                    <label for="option2">Reminder to Look Away From Screen</label><br>
-                    <input type="checkbox" id="option3" name="option3" value="Quote">
-                    <label for="option3">Motivational Quotes</label>
-                    <br>
-                    <label for="option3">How much time do you want between each notification?</label>
-                    <input type="number" id="option4" name="option4">
-
-
-
-                </form> -->
+                    <p>Time Selected:<output id="valueTime"></output></p>
+                    <div class="col-12">
+                        <button class="btn btn-primary" type="submit">Submit form</button>
+                    </div>
             </div>
 
         </div>
